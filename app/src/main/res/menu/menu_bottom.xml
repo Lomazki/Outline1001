@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/navigation_first"
+        android:icon="@drawable/ic_baseline_home"
+        android:title=""
+        tools:title="first_fragment" />
+
+    <item
+        android:id="@+id/navigation_second"
+        android:icon="@drawable/ic_baseline_calendar_month"
+        android:title=""
+        tools:title="second_fragment" />
+
+    <item
+        android:id="@+id/navigation_third"
+        android:title=""
+        tools:title="first_fragment" />
+
+    <item
+        android:id="@+id/navigation_fourth"
+        android:icon="@drawable/ic_baseline_analytics"
+        android:title=""
+        tools:title="fourth_fragment" />
+
+    <item
+        android:id="@+id/navigation_fifth"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title=""
+        tools:title="fifth_fragment" />
+
+</menu>

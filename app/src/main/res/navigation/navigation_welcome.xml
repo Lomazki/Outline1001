@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/welcome"
+    android:id="@+id/navigation_welcome">
+
+    <fragment
+        android:id="@+id/welcome"
+        android:name="by.lomazki.outline1001.WelcomeFragment"
+        tools:layout="@layout/fragment_welcome" >
+    </fragment>
+
+    <action android:id="@+id/action_global_welcome"
+        app:destination="@id/navigation_content"/>
+
+</navigation>
