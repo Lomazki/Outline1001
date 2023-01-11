@@ -1,4 +1,4 @@
-package by.lomazki.outline1001
+package by.lomazki.outline1001.fragments
 
 import android.graphics.Color
 import android.os.Bundle

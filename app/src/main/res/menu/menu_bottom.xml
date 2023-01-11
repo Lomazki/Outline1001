@@ -9,26 +9,14 @@
         tools:title="first_fragment" />
 
     <item
-        android:id="@+id/navigation_second"
-        android:icon="@drawable/ic_baseline_calendar_month"
-        android:title=""
-        tools:title="second_fragment" />
-
-    <item
         android:id="@+id/navigation_third"
         android:title=""
         tools:title="first_fragment" />
 
     <item
         android:id="@+id/navigation_fourth"
-        android:icon="@drawable/ic_baseline_analytics"
+        android:icon="@drawable/ic_baseline_calendar_month"
         android:title=""
         tools:title="fourth_fragment" />
-
-    <item
-        android:id="@+id/navigation_fifth"
-        android:icon="@drawable/ic_baseline_settings"
-        android:title=""
-        tools:title="fifth_fragment" />
 
 </menu>

@@ -1,4 +1,4 @@
-package by.lomazki.outline1001
+package by.lomazki.outline1001.fragments
 
 import android.graphics.Color
 import android.os.Bundle
@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import by.lomazki.outline1001.databinding.FragmentFirstBinding
+import by.lomazki.outline1001.databinding.FragmentFourthBinding
 
-class FirstFragment : Fragment() {
+class FourthFragment : Fragment() {
 
-    private var _binding : FragmentFirstBinding? = null
+    private var _binding : FragmentFourthBinding? = null
     private val binding get() = requireNotNull(_binding)
 
     override fun onCreateView(
@@ -18,7 +18,7 @@ class FirstFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return FragmentFirstBinding.inflate(inflater, container, false)
+        return FragmentFourthBinding.inflate(inflater, container, false)
             .also { _binding = it }
             .root
     }
@@ -26,7 +26,7 @@ class FirstFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.root.setBackgroundColor(Color.GRAY)
+        binding.root.setBackgroundColor(Color.BLUE)
     }
 
     override fun onDestroy() {

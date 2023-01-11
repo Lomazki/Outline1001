@@ -1,4 +1,4 @@
-package by.lomazki.outline1001
+package by.lomazki.outline1001.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
+import by.lomazki.outline1001.R
 import by.lomazki.outline1001.databinding.FragmentContentBinding
-import com.google.android.material.snackbar.Snackbar
 
 class ContentFragment : Fragment() {
 
@@ -36,11 +36,11 @@ class ContentFragment : Fragment() {
         binding.bottomNavigation.setupWithNavController(nestedController)
 
         binding.fab.setOnClickListener {
-            Toast.makeText(context, "the button works", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, "the button is working", Toast.LENGTH_SHORT).show()
         }
 
         // отключаем кликабельность средней кнопки
-        binding.bottomNavigation.menu.getItem(2).isEnabled = false
+        binding.bottomNavigation.menu.getItem(1).isEnabled = false
     }
 
     override fun onDestroy() {
